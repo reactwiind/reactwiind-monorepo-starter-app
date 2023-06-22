@@ -16,7 +16,7 @@ const Home: NextPage = () => {
   const cprops = {
      header: {
       logo:<Logo width="300px" height="80px"/>,
-      link:'https://ww.mindwingo.com', 
+      link:'https://ww.reactwiind.com', 
       right: <Social fill="fill-secondary" list={socialList} />
     },
      
