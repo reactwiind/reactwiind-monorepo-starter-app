@@ -5,27 +5,11 @@
     "apps/*"
   ],
   "scripts": {
-    "r1": "turbo run build --filter=skillwingo^...",
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "clean": "turbo run clean && rm -rf node_modules",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "changeset": "changeset",
-    "version-packages": "changeset version",
-    "release": "turbo run build --filter=docs^... && changeset publish",
-    "pub": "turbo run build && changeset version && changeset publish",
-    "b": "yarn workspace reactwiind build",
-    "d": "yarn workspace reactwiind dev",
-    "wb": "yarn workspace reactwiind-web build",
-    "wd": "yarn workspace reactwiind-web dev",
-    "pb": "yarn workspace reactwiind-pro build",
-    "pd": "yarn workspace reactwiind-pro dev",
-    "db": "yarn workspace docs build",
-    "dd": "yarn workspace docs dev",
-    "dwb": "yarn workspace docs-web build",
-    "dwd": "yarn workspace docs-web dev",
-    "acp": "git add . && git commit -m 'updated changes' && git push"
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",

@@ -1,19 +1,21 @@
-# Reactwiind UI Library
+# Reactwiind UI Library- Monorepo starter webapp
 
-## Build webapps faster - Beta Release
-
-## Using this example
+## Run any of the below
 
 ```bash
-yarn add reactwiind
+yarn install
+yarn dev
 
 or
 
-npm install reactwiind
+npm install
+npm dev
 
 or
 
-pnpm install reactwiind
+pnpm install
+pnpm dev
+
 ```
 
 ### Beta Release
